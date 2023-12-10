@@ -1,5 +1,7 @@
 # My dotfiles
 
+## Dependencies
+
 ```
 .
 ├── neovim
