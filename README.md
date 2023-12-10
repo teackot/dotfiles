@@ -3,7 +3,7 @@
 ```
 .
 ├── neovim
-│   └── [packer.nvim](https://github.com/wbthomason/packer.nvim)
+│   └── packer.nvim
 └── tmux
-    └── [TPM](https://github.com/tmux-plugins/tpm)
+    └── TPM
 ```
