@@ -59,11 +59,11 @@ keyset('n', '<leader>fh', builtin.help_tags, {})
 -- hop
 local hop = require('hop')
 -- current line, after cursor
-keyset('', 'f', function()
+keyset('', 'F', function()
     hop.hint_char1({ current_line_only = true })
 end, { remap = true })
 -- current line, before cursor
-keyset('', 'F', function()
+keyset('', 'f', function()
     hop.hint_words({})
 end, { remap = true })
 

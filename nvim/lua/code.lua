@@ -1,3 +1,5 @@
+_G.meson_recommended_style = false
+
 -- Some language servers have issues with backup files
 vim.opt.backup = false
 vim.opt.writebackup = false
@@ -57,7 +59,7 @@ require('nvim-treesitter.configs').setup {
     refactor = {
         smart_rename = {
             enable = true,
-            keymaps = { smart_rename = "<leader>rn" },
+            keymaps = { smart_rename = '<leader>rn' },
         },
         highlight_definitions = {
             enable = true,

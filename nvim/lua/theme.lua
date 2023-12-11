@@ -4,6 +4,9 @@ require('catppuccin').setup({
         light = 'latte',
         dark = 'mocha',
     },
+    integrations = {
+        hop = true,
+    },
 })
 
 vim.opt.background = 'dark'
@@ -12,4 +15,4 @@ vim.cmd('colorscheme catppuccin')
 vim.opt.number = true
 vim.opt.relativenumber = true
 
-vim.opt.signcolumn = "yes"
+vim.opt.signcolumn = 'yes'
