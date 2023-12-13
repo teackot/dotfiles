@@ -16,6 +16,9 @@ require('better_escape').setup {
     mapping = {'jj', 'kk', 'jk', 'kj'},
 }
 
+-- switch source/header
+keyset('n', '<leader>sh', ':ClangdSwitchSourceHeader<CR>', {})
+
 -- cmp keymap
 local luasnip = require('luasnip')
 local cmp = require('cmp')

@@ -20,6 +20,8 @@ for _, lsp in ipairs(servers) do
     }
 end
 
+-- setup neodev for nvim configs
+require('neodev').setup()
 -- setup lua_ls
 lspconfig.lua_ls.setup {
     settings = {

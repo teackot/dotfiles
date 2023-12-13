@@ -7,6 +7,8 @@ return require('packer').startup(function(use)
 
     use { 'neovim/nvim-lspconfig', as = 'lspconfig' }
 
+    use { 'folke/neodev.nvim' }
+
     -- autocompletion
     use { 'hrsh7th/nvim-cmp' }
     use { 'hrsh7th/cmp-nvim-lsp' }
