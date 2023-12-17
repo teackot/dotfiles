@@ -49,6 +49,8 @@ return require('packer').startup(function(use)
     -- tmux integration
     use { 'aserowy/tmux.nvim' }
 
+    use { 'lewis6991/gitsigns.nvim' }
+
     -- jupyter
     use { 'meatballs/magma-nvim', run = ':UpdateRemotePlugins' }
     use { 'meatballs/notebook.nvim' }
