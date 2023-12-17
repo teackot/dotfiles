@@ -12,7 +12,11 @@ require('oil').setup {
     delete_to_trash = true,
 }
 
-require('nvim-tree').setup()
+require('nvim-tree').setup {
+    filters = {
+        git_ignored = false,
+    },
+}
 vim.api.nvim_create_autocmd('VimEnter', { callback = nt_api.tree.open })
 
 local tree_open = false
